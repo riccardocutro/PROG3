@@ -12,6 +12,7 @@ public class ServerController {
 
     private static final int PORT = 8080;
     private boolean running = true;
+    private ServerSocket serverSocket;
 
     @FXML
     public void initialize() {

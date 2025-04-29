@@ -60,10 +60,10 @@ public class Email implements Serializable {
 
     @Override
     public String toString() {
-        return "From: " + sender +
-                " To: " + recipient.toString() +
-                " Subject: " + subject +
-                " Date: " + timestamp +
+        return "From: " + sender + "\n" +
+                " To: " + recipient.toString() + "\n" +
+                " Subject: " + subject + "\n" +
+                " Date: " + timestamp + "\n\n" +
                 body;
     }
 
